@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tastatur: helle Fläche mit Tasten, blauer Haken – wie die Schul-Tastatur -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#E8EAED" android:pathData="M24,36h60a4,4 0,0 1,4 4v28a4,4 0,0 1,-4 4h-60a4,4 0,0 1,-4 -4v-28a4,4 0,0 1,4 -4z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M26,41h8v7h-8zM36,41h8v7h-8zM46,41h8v7h-8zM56,41h8v7h-8zM66,41h8v7h-8zM76,41h6v7h-6z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M29,51h8v7h-8zM39,51h8v7h-8zM49,51h8v7h-8zM59,51h8v7h-8z"/>
+    <path android:fillColor="#4479E8" android:pathData="M69,51h13v7h-13z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M36,61h36v7h-36z"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="1.6" android:strokeLineCap="round" android:pathData="M72.5,54.5l2,2 4,-4"/>
+</vector>
