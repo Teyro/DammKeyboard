@@ -4,6 +4,9 @@ set -x
 mkdir -p bilder
 P=de.oejendorferdamm.dammkeyboard
 adb install -r app/build/outputs/apk/debug/app-debug.apk
+# direkt nach der Installation kennt Android die Tastatur noch nicht – kurz warten
+for i in $(seq 1 15); do adb shell ime list -a -s | grep -q dammkeyboard && break; sleep 2; done
+adb shell ime list -a -s
 adb shell ime enable $P/.DammKeyboardDienst
 adb shell ime set $P/.DammKeyboardDienst
 foto() { sleep "${2:-3}"; adb exec-out screencap -p > "bilder/$1.png"; }
